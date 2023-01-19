@@ -1,4 +1,4 @@
-FROM python:3.9
+FROM python:3
 
 #  Директория для python 3
 WORKDIR /usr/src/app
