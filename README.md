@@ -22,4 +22,5 @@ SRGAN (Super Resolution GAN) - подход к решению задачи SISR,
 
 ## Датасеты на которых обучалась модель:
   DIV2K - https://data.vision.ee.ethz.ch/cvl/DIV2K/
+  
   Flickr2k - https://drive.google.com/drive/folders/1AAI2a2BmafbeVExLH-l0aZgvPgJCk5Xm
