@@ -21,6 +21,5 @@ SRGAN (Super Resolution GAN) - подход к решению задачи SISR,
 Обучение нейронной сети будет производится на парах изображений LR-HR. Однако не обязательно заранее подготавливать LR и HR пары изображений вместе, достаточно подготовить только High Resolution фотографии. Low Resolution изображения мы сможем получить из HR изображений, уменьшив их билинейной/бикубической интерполяцией прямо во время обучения.
 
 ## Датасеты на которых обучалась модель:
-  DIV2K - https://data.vision.ee.ethz.ch/cvl/DIV2K/
-  
-  Flickr2k - https://drive.google.com/drive/folders/1AAI2a2BmafbeVExLH-l0aZgvPgJCk5Xm
+  1) DIV2K - https://data.vision.ee.ethz.ch/cvl/DIV2K/
+  2) Flickr2k - https://drive.google.com/drive/folders/1AAI2a2BmafbeVExLH-l0aZgvPgJCk5Xm
