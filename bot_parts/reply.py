@@ -31,6 +31,5 @@ tries to distinguish correct ("true") samples from incorrect ones.
 """
 
 start_transformation = """
-⚠️️ Please send me your photo, preferably a square-sized one, 
-otherwise I will crop it myself) 
+⚠️️ Please send me your photo
 """
