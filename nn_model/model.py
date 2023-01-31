@@ -188,9 +188,6 @@ def process_photo(photo_path, save_path):
     model.eval()
 
     photo = Image.open(photo_path, mode="r").convert('RGB')
-    # photo = cv2.imread(photo_path)
-    # photo = cv2.cvtColor(photo, cv2.COLOR_BGR2RGB)
-
 
     photo_result = model(convert_image(photo, source='pil', target='imagenet-norm').unsqueeze(0).to(device))
     photo_result = torch.clamp(photo_result.squeeze(0).cpu().detach(), -1, 1)
