@@ -1,4 +1,4 @@
-# pet-project
+# Pet-project
 
 ## SISR
 
